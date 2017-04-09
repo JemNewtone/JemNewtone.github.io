@@ -1,96 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Severe code</title>
-	<meta charset="utf-8">
-	<style>
-
-table {
-	border-collapse: collapse;
-	text-align: center;
-	width: 100%;
-	font-family: Roboto;
-}
-
-.top{
-	background-color: #777777;
-	color: #FFFFFF;
-}
-
-#logo{
-	position: absolute;
-	top: 30px;
-	font-size: 150%;
-	font-family: Roboto;
-	color: #FF6347;
-}
-
-.gap{
-	height: 3px;
-	border-right: none;
-	border-left: none;
-}
-
-td {
-	border: 1px solid black;
-	box-sizing: border-box;
-	width: 20%;
-}
-
-a {
-	display: inline-block;
-	color: #FF6347;
-	padding: 5px;
-	font-size: 130%;
-}
-
-a:link, a:visited, a:hover {
-	text-decoration: none;
-}
-
-p {
-	margin: 30px 20% 70px;
-	text-align: left;
-}
-
-h2 {
-	margin: 50px;
-	color: #484745;
-}
-
-.sidebar {
-	background-color: #DDDDDD;
-}
-
-	</style>
+	<meta charset="UTF-8">
+	<title>fixed</title>
+	<link rel="stylesheet" type="text/css" href="fixed.css">
 </head>
 <body>
-
-<table>
-	<tr>
-		<td class="top" colspan="5"><h1>TITLE</h1></td>
-	</tr>
-	<tr>
-		<td class="gap" colspan="5"></td>
-	</tr>
-
-	<tr>
-		<td><a href="#">link</a></td>
-		<td><a href="#">link</a></td>
-		<td><a href="#">link</a></td>
-		<td><a href="#">link</a></td>
-		<td><a href="#">link</a></td>
-	</tr>
-	<tr>
-		<td class="sidebar"></td>
-		<td colspan="3">
-			<h2>TITLE</h2>
-			<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et repellendus facilis cupiditate officia ad dicta, perferendis odit enim voluptatibus vero quod mollitia minima sequi sunt architecto voluptatem saepe nostrum quasi. Illum harum, voluptas odio porro cupiditate maxime, accusamus distinctio animi explicabo aliquid nisi, non veniam iure eligendi repellat autem quae optio molestiae. Omnis voluptatum libero deserunt magni molestiae, autem eos qui eligendi minus quod distinctio sunt perferendis blanditiis ab neque, repellat ut minima! Id repellat ipsa voluptate, delectus est quo.</P>
-		</td>
-		<td class="sidebar"></td>
-	</tr>
-</table>
-<div id="logo">COLSPAN<sup>****</sup></div>
-
+	<nav>
+		<ul class="ul_nav">
+			<li class="li_nav"><a class="a_nav" href="#">Home</a></li>
+			<li class="li_nav"><a class="a_nav" href="#">Link</a></li>
+			<li class="li_nav"><a class="a_nav" href="#">Link</a></li>
+			<li class="li_nav"><a class="a_nav" href="#">About</a></li>
+		</ul>
+	</nav>
+	<section class="top_section">
+		<div class="logoblack"></div>
+	</section>
+	<section class="bottom_section">
+		<div class="logowhite"></div>
+	</section>
 </body>
 </html>
