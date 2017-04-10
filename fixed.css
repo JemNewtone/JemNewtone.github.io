@@ -26,7 +26,6 @@ body {
 
 a:hover{
 	background-color: rgba(192,192,192, 0.1);
-	font-size: 135%;
 	border-radius: 20px;
 }
 
@@ -57,9 +56,11 @@ a:hover{
 
 .logoblack {
 	background: url("whitelogo.png") no-repeat fixed center;
+	background-size: 35%;
 	
 }
 
 .logowhite{
 	background: url("blacklogo.png") no-repeat fixed center;
+	background-size: 35%;
 }
