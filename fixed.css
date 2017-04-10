@@ -31,27 +31,30 @@ a:hover{
 
 
 .top_section{
-	background-image: url("texture_black.jpg");
+	background: url("texture_black.jpg");
+	background-size: cover;
+
 }
 
 .bottom_section{
 	background-image: url("texture_white.jpg");
+	background-size: cover;
 }
 
 .top_section,
 .bottom_section{
 	position: relative;
 	width: 100%;
-	height: 580px;
+	height: 1000px;
 }
 
 .logowhite,
 .logoblack {
 	position: absolute;
-	width: 700px;
-	height: 450px;
+	width: 80%;
+	height: 850px;
 	top: 10%;
-	left: 20%
+	left: 10%
 }
 
 .logoblack {
