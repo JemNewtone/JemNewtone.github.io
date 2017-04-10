@@ -4,27 +4,29 @@ body {
 
 .ul_nav{
 	position: fixed;
-	z-index: 1;	
+	z-index: 1;
 }
 
 .li_nav {
 	display: inline-block;
-	width: 100px;
-	height: 40px;
 	text-align: center;
 	margin: 0 50px;
 }
 
 .a_nav {
-	display: block;
-	padding: 10px 20px; 
-	font-family: Roboto;
+	display: inline-block;
+	padding: 10px;
+	width: 60px;
+	height: 25px;
+	font-family: Arial;
 	font-size: 130%;
 	color: #828282;
+	vertical-align: top;
 	text-decoration: none;
 }
 
 a:hover{
+	font-size: 150%;
 	background-color: rgba(192,192,192, 0.1);
 	border-radius: 20px;
 }
