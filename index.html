@@ -1,24 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>fixed</title>
-	<link rel="stylesheet" type="text/css" href="fixed.css">
+	<title>My page</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
-	<nav>
+<div class="main_page">
+	<header>
 		<ul class="ul_nav">
-			<li class="li_nav"><a class="a_nav" href="#">Home</a></li>
-			<li class="li_nav"><a class="a_nav" href="#">Link</a></li>
-			<li class="li_nav"><a class="a_nav" href="#">Link</a></li>
-			<li class="li_nav"><a class="a_nav" href="#">About</a></li>
+				<li class="li_nav"><a class="a_nav" href="#">Home</a></li>
+				<li class="li_nav"><a class="a_nav" href="#">3D Cube</a></li>
+				<li class="li_nav"><a class="a_nav" href="#">Husky Store</a></li>
+				<li class="li_nav"><a class="a_nav" href="#">About</a></li>
 		</ul>
-	</nav>
-	<section class="top_section">
-		<div class="logoblack"></div>
+	</header>
+	<section class="sections section_slider">
+		<div class="wrap">
+		    <div class="parallelepiped">
+		      <div class="front">
+		        <div class="slider_picture"><img src="slider2.jpg" alt="pic">
+		        </div>
+		      </div>
+		      <div class="back">
+		      	<div class="slider_picture"><img src="slider3.jpg" alt="pic">
+		      	</div>
+		      </div>
+		      <div class="top">
+		      	<div class="slider_picture"><img src="slider1.jpg" alt="pic">
+		      	</div>
+		      </div>
+		      <div class="bottom">
+		      	<div class="slider_picture"><img src="slider4.jpg" alt="pic">
+		      	</div>
+		      </div>
+		    </div>
+		</div>
+
 	</section>
-	<section class="bottom_section">
-		<div class="logowhite"></div>
+	<section class="sections section_cube">
+		<div class="slider_footer"></div>
+		<h1>3D Cube</h1>
+		<p>Mouse over the gray block to explode the cube or mouse over the cube to pause the animation</p>
+		<div class="wrap_cube">
+		  <div class="cube">
+		    <div class="front_cube">
+		       <div class="sticker_front stickers">Front side</div>
+		    </div>
+		    <div class="back_cube">
+		      <div class="sticker_back stickers">Back side</div>
+		    </div>
+		    <div class="top_cube">
+		      <div class="sticker_top stickers">Top side</div>
+		    </div>
+		    <div class="bottom_cube">
+		      <div class="sticker_bottom stickers">Bottom side</div>
+		    </div>
+		    <div class="left_cube">
+		      <div class="sticker_left stickers">Left side</div>
+		    </div>
+		    <div class="right_cube">
+		      <div class="sticker_right stickers">Right side</div>
+		    </div>
+		  </div>
+		</div>
 	</section>
+	<section class="sections section_store">
+		<p>Sorry, Husky store is being developed now!</p>
+		<div class="section_store_smile"><img src="smile2.png" alt="pic"></div>
+	</section>
+	<footer>
+		<div>Contact me:</div>
+		<div ><a href="https://www.facebook.com/Dmytryku"><img src="Facebook1.png" alt="Facebook" width="25px"></a></div>
+	</footer>
+</div>
 </body>
 </html>
+
+
