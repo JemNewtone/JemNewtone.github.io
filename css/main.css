@@ -304,8 +304,28 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
   height: 527px;
   background-color: #000000;
+}
+
+.blackPartOurPricing__title {
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+  letter-spacing: 6px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.blackPartOurPricing__contaner {
+  display: flex;
+  justify-content: space-between;
+  width: 875px;
 }
 
 .twoColumnTable {
@@ -348,7 +368,6 @@ a {
   background-color: white;
   margin: auto;
   width: 1170px;
-  height: 1322px;
   transform: translateY(-49px);
   box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.1);
 }
@@ -364,16 +383,145 @@ a {
   text-transform: uppercase;
 }
 
-.nav__ourProducts {
+.ourProducts__nav {
+  display: flex;
+  justify-content: center;
   margin: auto;
+  width: 455px;
 }
 
-.nav__link__ourProducts {
-  color: #474137;
+.ourProducts__contaner {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ourProducts__link {
+  display: inline-block;
   font-size: 14px;
-  letter-spacing: normal;
+  font-family: 'Lora', sans-serif;
+  color: #474137;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 17px;
+  box-sizing: border-box;
+  vertical-align: bottom;
+  height: 28px;
 }
 
-.nav__link__ourProducts:hover {
+.ourProducts__link:hover {
   border-bottom: 1px solid #000000;
+}
+
+.product {
+  width: 349px;
+  height: 433px;
+  margin: 0 0 30px 0;
+  background-color: #F5F5F5;
+}
+
+.product__fotoWrapper {
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+
+.product__name {
+  font-size: 18px;
+  font-family: 'Lora', sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 44px;
+  text-align: center;
+}
+
+.product__price {
+  text-align: center;
+}
+
+.product__priviousPrice {
+  margin-right: 16px;
+  font-size: 18px;
+  font-family: 'Lora', sans-serif;
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.product__sale {
+  font-size: 18px;
+  font-family: 'Lora', sans-serif;
+  color: #000000;
+}
+
+.product__buyIco {
+  position: absolute;
+  right: 12px;
+  bottom: 14px;
+  width: 55px;
+  height: 55px;
+  background-color: #F5F5F5;
+  font-size: 25px;
+  font-family: 'FontAwesome', sans-serif;
+  color: #000000;
+  line-height: 55px;
+  text-align: center;
+}
+
+.ourAddress {
+  margin: auto;
+  width: 459px;
+  height: 193px;
+  background-color: #0C0C0C;
+  transform: translateY(79px);
+}
+
+.ourAddress__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transform: translateY(3px);
+  margin: auto;
+  width: 447px;
+  height: 181px;
+  border: 3px solid #FFFFFF;
+  color: #f5f5f5;
+  text-align: center;
+  line-height: 36px;
+  font-size: 18px;
+  font-family: 'Lora', sans-serif;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #111111;
+}
+
+.footer__contaner {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 1170px;
+  height: 81px;
+  line-height: 81px;
+}
+
+.footer__copyright {
+  margin-right: 5px;
+  font-size: 16px;
+  color: #b5b5b5;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.footer__site {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer__socNetworks {
+  font-size: 16px;
+  font-family: 'FontAwesome', sans-serif;
+  color: #fbfbfb;
+  letter-spacing: 15px;
 }
