@@ -60,17 +60,17 @@ function ChoosingPhone(){
 		} else if (ChosenMemory == 128 && ChosenColor == color[0]) {
 			document.write('<img src="img/iphone_6s_gold.jpg" alt=""><br>Color:' +' '+ ChosenColor + '<br>Memory:' +' '+ ChosenMemory +' '+ 'Gb<br>Price: 121$');
 		} else if (ChosenMemory == 32 && ChosenColor == color[1]) {
-			document.write('<img src="img/iphone_6s_gray.jpg" alt=""><br>Color:' +' '+ ChosenColor + '<br>Memory:' +' '+ ChosenMemory +' '+ 'Gb<br>Price: 121$');
+			document.write('<img src="img/iphone_6s_gray.jpg" alt=""><br>Color:' +' '+ ChosenColor + '<br>Memory:' +' '+ ChosenMemory +' '+ 'Gb<br>Price: 32$');
 		} else if (ChosenMemory == 64 && ChosenColor == color[1]) {
-			document.write('<img src="img/iphone_6s_gray.jpg" alt=""><br>Color:' +' '+ ChosenColor + '<br>Memory:' +' '+ ChosenMemory +' '+ 'Gb<br>Price: 121$');
+			document.write('<img src="img/iphone_6s_gray.jpg" alt=""><br>Color:' +' '+ ChosenColor + '<br>Memory:' +' '+ ChosenMemory +' '+ 'Gb<br>Price: 62$');
 		} else if (ChosenMemory == 128 && ChosenColor == color[1]) {
-			document.write('<img src="img/iphone_6s_gray.jpg" alt=""><br>Color:' +' '+ ChosenColor + '<br>Memory:' +' '+ ChosenMemory +' '+ 'Gb<br>Price: 121$');
+			document.write('<img src="img/iphone_6s_gray.jpg" alt=""><br>Color:' +' '+ ChosenColor + '<br>Memory:' +' '+ ChosenMemory +' '+ 'Gb<br>Price: 122$');
 		} else if (ChosenMemory == 32 && ChosenColor == color[2]) {
-			document.write('<img src="img/iphone_6s_silver.jpg" alt=""><br>Color:' +' '+ ChosenColor + '<br>Memory:' +' '+ ChosenMemory +' '+ 'Gb<br>Price: 121$');
+			document.write('<img src="img/iphone_6s_silver.jpg" alt=""><br>Color:' +' '+ ChosenColor + '<br>Memory:' +' '+ ChosenMemory +' '+ 'Gb<br>Price: 33$');
 		} else if (ChosenMemory == 64 && ChosenColor == color[2]) {
-			document.write('<img src="img/iphone_6s_silver.jpg" alt=""><br>Color:' +' '+ ChosenColor + '<br>Memory:' +' '+ ChosenMemory +' '+ 'Gb<br>Price: 121$');
+			document.write('<img src="img/iphone_6s_silver.jpg" alt=""><br>Color:' +' '+ ChosenColor + '<br>Memory:' +' '+ ChosenMemory +' '+ 'Gb<br>Price: 63$');
 		} else {
-			document.write('<img src="img/iphone_6s_silver.jpg" alt=""><br>Color:' +' '+ ChosenColor + '<br>Memory:' +' '+ ChosenMemory +' '+ 'Gb<br>Price: 121$');
+			document.write('<img src="img/iphone_6s_silver.jpg" alt=""><br>Color:' +' '+ ChosenColor + '<br>Memory:' +' '+ ChosenMemory +' '+ 'Gb<br>Price: 123$');
 		} 
 		
 	}
