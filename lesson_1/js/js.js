@@ -23,7 +23,7 @@ function ChoosingPhone(){
 			ChosenMemory = parseInt(ChosenMemory, 10);
 			for(var i = 0; i < memory.length; i++) {
 				if (ChosenMemory == memory[i]) {
-				alert("You've chosen" + " " + ChosenMemory);
+				alert("You've chosen" + " " + ChosenMemory + 'Gb');
 				break top;
 				}
 			}
