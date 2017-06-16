@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Events</title>
+
+  <style>
+
+    #rChanel,
+    #gChanel,
+    #bChanel,
+    #setElementsLimit{
+      width: 45px;
+    }
+
+    #area{
+      width: 500px;
+      height: 300px;
+      border: 2px solid red;
+      position: relative;
+      overflow: hidden;
+    }
+    .figure{
+      position: absolute;
+      box-shadow: 0 0 10px 1px gold;
+      cursor: pointer;
+      text-align: center;
+
+    }
+    /*.circle{
+      border-radius: 50%;
+    }
+    .square{
+      border-radius: 5px;
+    }*/
+    .details{
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 400px;
+      height: 250px;
+      border: 2px solid #000;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-align-items: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .details .text{
+      text-transform: uppercase;
+      font-family: sans-serif;
+      padding: 10px;
+      background-color: #fff;
+    }
+    .btn{
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- <button onclick="clicker()" class="btn" id="btn1">Click</button> -->
+  <!-- <button class="btn" id="btn1">Click</button>
+  <button class="btn" id="btn2">Click</button>
+  <button class="btns" id="btn3">Click</button> -->
+  <div class="details" id="details">
+    <p class="text" id="detailsText">Choose element</p>
+    <button id="updateElementBtn" class="btn">OK</button>
+  </div>
+  <input type="color" id="newColor" value="#ff0000">
+  R: <input type="number" value="0" id="rChanel" min="0" max="255">
+  G: <input type="number" value="0" id="gChanel" min="0" max="255">
+  B: <input type="number" value="0" id="bChanel" min="0" max="255">
+  <p id="showColorValue"></p>
+  <br>
+  <input type="number" value="50" id="newWidth">
+  <input type="number" value="50" id="newHeight">
+  <br>
+  Set elements limit: <input type="number" value="5" id="setElementsLimit">
+  <br>
+  <button id="cleanArea" class="btn">Clean area</button>
+  <button id="UndoCreatingLastElement" class="btn">Undo creating last element</button>
+  <br>
+  <label>
+    Круг
+    <input type="radio" name="figure" value="circle">
+  </label>
+  <label>
+    Квадрат
+    <input type="radio" name="figure" value="square">
+  </label>
+  <br>
+  <br>
+  <div id="area"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
